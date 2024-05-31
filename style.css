@@ -101,6 +101,7 @@ body {
     cursor: pointer;
     position: absolute;
     right: 1px;
+    transition: .5s ease all;
 }
 /*! Navbar End */
 
@@ -281,3 +282,43 @@ body {
     opacity: 1;
 }
 /*! Movie List End */
+
+
+/*! Dark Mode Start */
+.container.active {
+    background-color: white;
+}
+
+.navbar.active {
+    background-color: white;
+    color: black;
+}
+
+.sidebar.active {
+    background-color: white;
+}
+
+.sidebar i.active {
+    color: black;
+}
+
+.movie-list-title.active {
+    color: black;
+}
+
+.toggle.active {
+    background-color: black;
+}
+
+.toggle-ball.active {
+    background-color: white;
+    transform: translateX(-20px);
+}
+
+.movie-list-filter select.active {
+    background-color: white;
+    color: black;
+}
+
+
+/*! Dark Mode End */
